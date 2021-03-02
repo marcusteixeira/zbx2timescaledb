@@ -1,12 +1,12 @@
 FROM debian:stable-slim
 
-LABEL ZABBIX_VERSION="4.0"
+LABEL ZABBIX_VERSION="5.0"
 LABEL ZBX_INSTALL="https://www.zabbix.com/documentation/4.0/ru/manual/installation/install_from_packages/debian_ubuntu"
 
-ENV ZBX_MAIN="4.0"
+ENV ZBX_MAIN="5.0"
 ENV ZBX_MAIN=${ZBX_MAIN}
 
-ENV ZBX_MINOR="2"
+ENV ZBX_MINOR="8"
 
 ENV ZBX_FULL=$ZBX_MAIN-${ZBX_MINOR}
 
